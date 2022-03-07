@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY-GIRO</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="fonts/GardensC.otf">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="wrapper">
+                <a href="index.html"><img src="img/logo-white.png" alt="MY-GIRO" class="logo"></a>
+                <div class="menu">
+                    <a href="tel:+79991234567" class="number">+79991234567</a>
+                    <a href="#" class="order">Заказать</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="advantage">
+            <div class="container">
+                <div class="slider">
+                    <img src="img/left.png" alt="" class="btnslide prevslide">
+                    <div class="lists">
+                        <div class="lists">
+                            <div class="list active">
+                                <img src="img/100-kachestvo.png" alt="" class="slide ">
+                                <p>БОЛЬШОЙ АССОРТИМЕНТ</p>
+                            
+                            </div>
+                            <div class="list">
+                                <img src="img/bistraya-dostavka.png" alt="" class="slide">
+                                <p>БЫСТРАЯ ДОСТАВКА</p>
+                            </div>
+                            <div class="list">
+                                <img src="img/bolshoy-assortiment.png" alt="" class="slide">
+                                <p>ГАРАНТИЯ КАЧЕСТВА</p>
+                            </div>
+                            <div class="list">
+                                <img src="img/consultant.png" alt="" class="slide">
+                                <p>ОНЛАЙН-КОНСУЛЬТАНТ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <img  class="nextslide btnslide" src="img/right.png" alt="">
+                </div>
+            </div>
+        </div>
+        <h1 class="title">Плюсы и минусы</h1>
+        <div class="plusminus">
+            <div class="container">
+                
+                <br>
+                <br>
+                <br>
+                <div class="plusminus__inner">
+                    
+                    <div class="form_plusminus">
+                        <img src="img/plus.png" alt="">
+                        <ul>
+                            <li>Исключительной компактностью и небольшим весом. Он легко помещается и в специальный чехол, и в рюкзак, и в спортивную сумку</li>
+                            <li>Экономичностью. Мини-сигвей и сам по себе стоит недорого, и обслуживания не требует, и бензин ему не нужен.</li>
+                            <li>Доступностью. На почти любой традиционный моторный транспорт нужны права, а на гироскутер – нет;
+                            </li>
+                            <li>Манёвренностью.</li>
+                            <li>Простотой в освоении. Чтобы научиться кататься на гироскутере взрослому человеку достаточно 10-15 минут. Купили, немного попрактиковались, и можно пользоваться!</li>
+
+
+                        </ul>
+                    </div>
+                    <div class="form_plusminus">
+                        <img src="img/minus.png" alt="">
+                        <br>
+                        <br>
+                        <br>
+                        <ul>
+                            <li>Трясёт. 6-дюймовые колёса «самокатного» типа достаточно жёсткие – естественно, что они отрабатывают микропрофиль дороги хуже, чем классические колёса с покрышками.</li>
+                            <li>Нет сиденья.</li>
+                            <li>Только для одного. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="title">Каталог</h1>
+        <div class="products">
+            <div class="container">
+
+                <div class="products__inner">
+                    <ul class="list__catalog">
+                        <li onclick="catalog('all')">Все</li>
+                        <li onclick="catalog('giroscooters')">Гироскутеры</li>
+                        <li onclick="catalog('electric_scooters')">Электросамокаты</li>
+                        <li onclick="catalog('segways')">Сигвеи</li>
+                    </ul>
+                    <div class="catalog">
+                        
+                        <div class="catalog__inner">
+                            <!-- Гироскутеры -->
+                            <div class="item giroscooters">
+                                <img src="img/catalog/giroscooters/1.jpg" alt="">
+                                <h3>Гироскутер Smart Balance 10</h3>
+                                <p>Красный </p>
+                                <h4>6500 р.</h4>
+                            </div>
+                            <div class="item giroscooters">
+                                <img src="img/catalog/giroscooters/2.jpg" alt="">
+                                <h3>Гироскутер Smart Balance Premium 10</h3>
+                                <p>Цветные Молнии </p>
+                                <h4>10 990 р.</h4>
+                            </div>
+                            <div class="item giroscooters">
+                                <img src="img/catalog/giroscooters/3.jpg" alt="">
+                                <h3>Гироскутер Smart Balance SUV</h3>
+                                <p>Черная Молния 10.5" Premium PRO </p>
+                                <h4>8 590 р.</h4>
+                            </div>
+                            <!-- Электросамокаты -->
+                            <div class="item electric_scooters">
+                                <img src="img/catalog/electric_scooters/1.jpg" alt="">
+                                <h3>Xiaomi Mijia Electric Scooter m187 Black</h3>
+                                <p>Красный </p>
+                                <h4>20 480 р.</h4>
+                            </div>
+                            <div class="item electric_scooters">
+                                <img src="img/catalog/electric_scooters/2.jpg" alt="">
+                                <h3>Электросамокат KUGOO S4</h3>
+                                <p>8800mAh  </p>
+                                <h4>13 480 р.</h4>
+                            </div>
+                            <div class="item electric_scooters">
+                                <img src="img/catalog/electric_scooters/3.jpg" alt="">
+                                <h3>Электросамокат SUBOR</h3>
+                                <p>D9  </p>
+                                <h4>11 790 р.</h4>
+                            </div>
+                            <!-- Сегвеи -->
+                            <div class="item segways">
+                                <img src="img/catalog/segways/1.jpg" alt="">
+                                <h3>Сигвей Xiaomi Ninebot mini Pro Black</h3>
+                                <p>Красный </p>
+                                <h4>6500 р.</h4>
+                            </div>
+                            <div class="item segways">
+                                <img src="img/catalog/segways/2.jpg" alt="">
+                                <h3>Сигвей Xiaomi Ninebot mini Pro White</h3>
+                                <p>Белый  </p>
+                                <h4>31 480 р..</h4>
+                            </div>
+                            <div class="item segways">
+                                <img src="img/catalog/segways/3.jpg" alt="">
+                                <h3>Сигвей Xiaomi Ninebot mini White</h3>
+                                <p>Белый</p>
+                                <h4>14 790 р.</h4>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="title">Наши сотрудники</h1>
+        <div class="consultants">
+            <div class="container">
+                
+                <div class="consultants__inner">
+                    
+                    <div class="consultant">
+                        <img src="img/Консультанты/1.png" alt="">
+                        <h2>Галина Петрова </h2>
+                        <h3>менеджер по продажам</h3>
+                        
+                    </div>
+                    <div class="consultant">
+                        <img src="img/Консультанты/3.png" alt="">
+                        <h2>Иван Алексеев </h2>
+                        <h3>Менеджер по продажам</h3>
+                        
+                    </div>
+                    <div class="consultant">
+                        <img src="img/Консультанты/2.png" alt="">
+                        <h2>Светлана Астахова </h2>
+                        <h3>Менеджер по продажам</h3>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="title">Бренды с которыми мы сотрудничаем</h1>
+        <div class="brends">
+            <div class="container">
+                
+                <!-- Компании -->
+                <ul>
+                    <li><h1>XIAOMI</h1></li>
+                    <li><h1>SMART</h1></li>
+                    <li><h1>BALANCE</h1></li>
+                    <li><h1>LINBOL</h1></li>
+                    <li><h1>KUGOO</h1></li>
+                    <li><h1>SUBOR</h1></li>
+                    <li><h1>AIRWHEEL</h1></li>
+                </ul>
+            </div>
+            
+        </div>
+        <h1 class="title">Полезная информация</h1>
+        <div class="useful__info">
+            <div class="container">
+                
+                <div class="info__inner">
+                    <!-- Полезно -->
+                    <div class="block">
+                        <img src="img/Полезная информация/1.jpg" alt="">
+                        <h1>Как выбрать гироскутер? Советы перед покупкой</h1>
+                    </div>
+                    <div class="block">
+                        <h1>Электросамокат. Какой лучше и как выбрать?</h1>
+                        <img src="img/Полезная информация/2.jpg" alt="">
+                    </div>
+                    <div class="block">
+                        <img src="img/Полезная информация/3.jpg" alt="">
+                        <h1>Как выбрать сигвей? На что обратить внимание?</h1>
+                    </div>
+                    <div class="block">
+                        <h1>Советы по выбору гироскутера для ребенка.</h1>
+                        <img src="img/Полезная информация/4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+                        <!-- Компания -->
+        <h1 class="title">О компании</h1>
+        <div class="about">
+            <div class="container">
+                <div class="about__inner">
+                    <img src="img/logo-blue.png" alt="">
+                    <p>В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей.
+                        Все товары, представленные на нашем сайте, отобраны лучшими специалистами в этой области.
+                        Купить гироскутер, электросамокат или сигвей недорого, Вы можете в нашем интернет-магазине в любое время, когда Вам удобно. 
+                        Доставка заказов осуществляется бесплатно, в любую точку России.
+                        Так же, вы можете заказать гироскутер, сигвей или электросамокат по низкой цене, позвонив нам.
+                        Или сделайте заказ, пообщавшись с нашим онлайн-консультантом консультантам.
+                        Продажа гироскутеров, электросамокатов и сигвеев, осуществляется напрямую, от производителей. 
+                        Поэтому, в нашем интернет-магазине самые лучшие цены. 
+                        </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1>Подпишите рассылку</h1>
+                <div class="mailing">
+                    
+                    <br>
+                    <h2>Имя</h2>
+                    <input type="text">
+                    <h2>Эл.почта</h2>
+                    <input type="text"><br>
+                    <button>Подписаться</button>
+                </div>
+            </div>
+        </div>
+        <div id="scrolltop">
+            <img src="img/go_up.png" alt="">
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
